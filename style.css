@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+.main{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    /* overflow-x: hidden;  */
+}
+
+.card{
+    width: 1440px;
+    height: 960px;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h1,nav{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+}
+.navigation{
+    text-align: center;
+    margin-bottom: 180px;
+    text-transform: uppercase;
+    word-spacing: 40px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+.bg{
+    position: relative;
+    top: -252.5px;
+    left: 0px;
+    width: 108.1%;
+    height: 54%;
+    border-radius: 0 0 0 25%;
+    background-color: hsl(207, 33%, 95%);
+    z-index: -1;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    margin-bottom: 2px;
+    background-color:  hsl(231, 7%, 65%);
+    border-radius: 50%;
+    display: inline-block;
+}
+.login{
+    color:  hsl(231, 7%, 65%);
+    
+    
+}
+a:hover:last-child{
+    text-decoration-color: hsl(231, 7%, 65%);
+}
+.dashboard{
+    display: flex;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(231, 7%, 65%);
+    margin-right: 30px;
+}
+.active{
+    border:solid hsl(230, 29%, 20%) 1px;
+    width: 60px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 500px;
+    cursor: pointer;
+    color:hsl(207, 33%, 95%);
+    background-color:hsl(230, 29%, 20%) ;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.d-child{
+    margin-right: 20px;
+}
+h1{
+    font-size: 70px;
+    
+}
+.column{
+    flex: 50%; 
+   padding: 50px;
+   
+}
+.description{
+    font-size: 40px;
+}
+.preview{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    color: hsl(231, 7%, 65%);
+}
+button{
+    color: hsl(207, 33%, 95%);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: hsl(0, 100%, 68%);
+    border: hsl(0, 100%, 68%);
+    text-transform: uppercase;
+    height: 50px;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo{
+    margin-bottom: 200px;
+    
+}
+.crop{
+ position: absolute;
+  width: 670px;
+  height: 464px;
+  overflow: hidden;
+}
+.crop img{
+    width: 930px;
+  height: 464px;
+  margin: 0 -100px 0 0;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
