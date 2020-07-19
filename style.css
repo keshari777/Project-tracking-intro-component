@@ -165,7 +165,7 @@ nav{
         height: 1550px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: -20px;
     }
     .logo img {
         width: 3em;
@@ -199,7 +199,6 @@ nav{
     #icon{
         display: initial;
         margin-left: 420px;
-        width: 500em;
         height: 2em;
         margin-top: 10px;
         
@@ -213,17 +212,20 @@ nav{
    .bottom{
     margin-top: 60px;
    }
+   
     .crop{
-        width: 100%;
+        width: 115%;
+        position: relative;
+        left: -40px;
     }
     .crop img{
         width: 137%
 
     }
     .bg{
-        width: 42%;
+        width: 50%;
         height: 800px;
-        left: 402px;
+        left: 352px;
         bottom: 1420px;
         
     }
