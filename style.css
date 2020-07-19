@@ -160,6 +160,9 @@ nav{
     }
 }
 @media screen and (max-width:375px){
+    .main{
+        width: 375px;
+    }
     .card {
         width: 196%;
         height: 1550px;
@@ -198,7 +201,7 @@ nav{
     }
     #icon{
         display: initial;
-        margin-left: 420px;
+        margin-left: 500px;
         height: 2em;
         margin-top: 10px;
         
@@ -214,7 +217,7 @@ nav{
    }
    
     .crop{
-        width: 115%;
+        width: 114%;
         position: relative;
         left: -40px;
     }
@@ -225,7 +228,7 @@ nav{
     .bg{
         width: 50%;
         height: 800px;
-        left: 352px;
+        left: 368px;
         bottom: 1420px;
         
     }
